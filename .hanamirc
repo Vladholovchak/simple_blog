@@ -1,0 +1,3 @@
+project=simple_blog
+test=rspec
+template=erb
