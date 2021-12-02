@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0c2331b-8f62-4c81-8d06-7527052fe868" name="Default Changelist" comment="" />
+    <list default="true" id="710847f4-c930-4202-8366-a1b5d5f33194" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/api/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/simple_blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/assets/images/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/controllers/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/assets/javascripts/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/spec/api/controllers/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/assets/stylesheets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/templates/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/views/application_layout.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/20211201142817_create_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/simple_blog.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/simple_blog/entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/simple_blog/entities/user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/simple_blog/repositories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/simple_blog/repositories/user_repository.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/simple_blog/entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/simple_blog/entities/user_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/simple_blog/repositories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/simple_blog/repositories/user_repository_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/web/controllers/.gitkeep" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="21gcPHGxwalyQimulOaYk833TuR" />
+  <component name="ProjectId" id="21j16CE9cYzKZhd2EPkLUS9JVo5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,12 +57,12 @@
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0c2331b-8f62-4c81-8d06-7527052fe868" name="Default Changelist" comment="" />
-      <created>1638366148241</created>
+      <changelist id="710847f4-c930-4202-8366-a1b5d5f33194" name="Default Changelist" comment="" />
+      <created>1638439505185</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638366148241</updated>
-      <workItem from="1638366155221" duration="1287000" />
+      <updated>1638439505185</updated>
+      <workItem from="1638439507685" duration="386000" />
     </task>
     <servers />
   </component>

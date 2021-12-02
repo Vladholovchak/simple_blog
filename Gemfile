@@ -6,11 +6,15 @@ source 'https://rubygems.org'
 ruby File.read('.ruby-version').strip
 
 gem 'hanami',       '~> 1.3'
-gem 'hanami-model', '~> 1.3'
+gem 'activerecord'
+gem 'active_record_migrations'
 gem 'rake'
 
 # database orm
 gem 'pg'
+
+# serialize
+gem 'jsonapi-hanami', github: 'jsonapi-rb/jsonapi-hanami'
 
 # code styling
 gem 'rubocop-rails'

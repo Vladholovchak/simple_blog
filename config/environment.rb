@@ -1,24 +1,16 @@
 require 'bundler/setup'
 require 'hanami/setup'
-require 'hanami/model'
-require_relative '../lib/simple_blog'
-require_relative '../apps/web/application'
+require 'active_record'
+db_config = YAML::load(ERB.new(File.read('config/database.yml')).result)[ENV['RACK_ENV']]
+require_relative '../lib/entities/application_record'
+ApplicationRecord.establish_connection(db_config)
+require_relative '../apps/api/application'
+require "hanami/middleware/body_parser"
+
 
 Hanami.configure do
-  mount Web::Application, at: '/'
-
-  model do
-    ##
-    # Database adapter
-    #
-    adapter :sql, ENV.fetch('DATABASE_URL')
-
-    ##
-    # Migrations
-    #
-    migrations 'db/migrations'
-    schema     'db/schema.sql'
-  end
+  middleware.use Hanami::Middleware::BodyParser, :json
+  mount Api::Application, at: '/api'
 
   environment :development do
     logger level: :debug
